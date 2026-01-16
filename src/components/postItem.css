@@ -1,0 +1,31 @@
+.postCard {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+  background: #fff;
+}
+
+.postHeader {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.postTitle {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
+.postContent {
+  margin: 10px 0 0;
+  color: #1f2937;
+  white-space: pre-wrap;
+}
+
+.postMeta {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.85rem;
+}

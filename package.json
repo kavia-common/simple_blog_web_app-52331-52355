@@ -1,0 +1,25 @@
+{
+  "name": "simple-blog-web-app",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A simple, single-page React blog web application where users can view, add, and delete blog posts stored in browser localStorage.",
+  "scripts": {
+    "dev": "vite --host --port ${REACT_APP_PORT:-5173}",
+    "build": "vite build",
+    "preview": "vite preview --host --port ${REACT_APP_PORT:-5173}",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "eslint": "^9.39.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.26",
+    "vite": "^6.4.1"
+  }
+}
